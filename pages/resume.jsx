@@ -19,7 +19,7 @@ const resume = () => {
           <h2 className="text-center">Saurabh Dhebe</h2>
           <div className="flex">
             <a
-              href="https://drive.google.com/file/d/1NV1SHauVJfmalFs1korWA3TFNQzxboCb/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1SJs44Td_8tfws9WoevXbwsmC5L2_JCyj/view?usp=drivesdk"
               target="_blank"
               rel="noreferrer"
             >
@@ -68,11 +68,8 @@ const resume = () => {
             <span className="px-2">|</span>React
             <span className="px-2">|</span>Next JS
             <span className="px-2">|</span>MongoDB
-            <span className="px-2">|</span>Redux
             <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span> Firebase
             <span className="px-2">|</span> RESTAPI
-            <span className="px-2">|</span> GraphQL
           </p>
         </div>
       </div>

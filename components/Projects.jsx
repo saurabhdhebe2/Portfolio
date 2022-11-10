@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import shoeCenterImg from "../public/assets/projects/shoeCenter.png";
 import imdbImg from "../public/assets/projects/imdb.png";
 import googleImg from "../public/assets/projects/google.png";
 import amazonImg from "../public/assets/projects/amazon.png";
@@ -17,8 +18,8 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="ShoeCenter"
-            backgroundImg={amazonImg}
-            projectUrl="/shoecenter"
+            backgroundImg={shoeCenterImg}
+            projectUrl="/shoeCenter"
             tech="HTML/CSS"
           />
           <ProjectItem

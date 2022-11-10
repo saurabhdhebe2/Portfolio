@@ -16,22 +16,28 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="ShoeCenter"
+            backgroundImg={amazonImg}
+            projectUrl="/shoecenter"
+            tech="HTML/CSS"
+          />
+          <ProjectItem
             title="IMDB-clone"
             backgroundImg={imdbImg}
             projectUrl="/imdb"
-            tech="React JS"
+            tech="Next JS"
           />
           <ProjectItem
             title="Google-clone"
             backgroundImg={googleImg}
             projectUrl="/google"
-            tech="React JS"
+            tech="Next JS"
           />
           <ProjectItem
             title="Amazon-clone"
             backgroundImg={amazonImg}
             projectUrl="/amazon"
-            tech="React JS"
+            tech="Next JS"
           />
         </div>
       </div>

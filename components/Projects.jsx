@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import shoeCenterImg from "../public/assets/projects/shoeCenter.png";
 import imdbImg from "../public/assets/projects/imdb.png";
 import googleImg from "../public/assets/projects/google.png";
 import amazonImg from "../public/assets/projects/amazon.png";
+import productLandingPageImg from "../public/assets/projects/productLandingPageImg.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -20,6 +19,12 @@ const Projects = () => {
             title="ShoeCenter"
             backgroundImg={shoeCenterImg}
             projectUrl="/shoeCenter"
+            tech="HTML/CSS"
+          />
+          <ProjectItem
+            title="Product-Landing-Page"
+            backgroundImg={productLandingPageImg}
+            projectUrl="/productLandingPage"
             tech="HTML/CSS"
           />
           <ProjectItem

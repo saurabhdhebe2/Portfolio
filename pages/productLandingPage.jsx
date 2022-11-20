@@ -28,8 +28,8 @@ const imdb = () => {
           <h2>Overview</h2>
           <p>
             This app was built using Next JS and is hosted on Vercel. Made this
-            site while sharpening my Front-End Skills.
           </p>
+          <p>site while sharpening my Front-End Skills.</p>
           <br></br>
           <a
             href="https://github.com/saurabhdhebe2/product-landing-page"

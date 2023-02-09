@@ -1,6 +1,6 @@
-import React from "react";
-import Head from "next/head";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import React from 'react';
+import Head from 'next/head';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const resume = () => {
   return (
@@ -19,7 +19,7 @@ const resume = () => {
           <h2 className="text-center">Saurabh Dhebe</h2>
           <div className="flex">
             <a
-              href="https://drive.google.com/file/d/1SJs44Td_8tfws9WoevXbwsmC5L2_JCyj/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/17B4zuyf56HxLLfxnHCcD63INex96sSrd/view?usp=drivesdk"
               target="_blank"
               rel="noreferrer"
             >
@@ -32,21 +32,21 @@ const resume = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
+              <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
               href="https://github.com/saurabhdhebe2"
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub size={20} style={{ marginRight: "1rem" }} />
+              <FaGithub size={20} style={{ marginRight: '1rem' }} />
             </a>
           </div>
         </div>
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Full-Stack Web Development <span className="px-1">|</span>{" "}
+              Full-Stack Web Development <span className="px-1">|</span>{' '}
               MERN-Stack Web Development
             </p>
           </div>

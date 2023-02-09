@@ -1,10 +1,10 @@
-import React from "react";
-import shoeCenterImg from "../public/assets/projects/shoeCenter.png";
-import imdbImg from "../public/assets/projects/imdb.png";
-import googleImg from "../public/assets/projects/google.png";
-import amazonImg from "../public/assets/projects/amazon.png";
-import productLandingPageImg from "../public/assets/projects/productLandingPageImg.png";
-import ProjectItem from "./ProjectItem";
+import React from 'react';
+import shoeCenterImg from '../public/assets/projects/shoeCenter.png';
+import imdbImg from '../public/assets/projects/imdb.png';
+import googleImg from '../public/assets/projects/google.png';
+import amazonImg from '../public/assets/projects/amazon.png';
+import productLandingPageImg from '../public/assets/projects/productLandingPageImg.png';
+import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (

@@ -24,7 +24,7 @@ const resume = () => {
               rel="noreferrer"
             >
               <button className="text-sm  rounded-md shadow-lg shadow-gray-400 p-2 mr-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                Resume
+                Resume.pdf
               </button>
             </a>
             <a
@@ -47,12 +47,14 @@ const resume = () => {
           <div className="hidden sm:block">
             <p>
               Full-Stack Web Development <span className="px-1">|</span>{' '}
-              MERN-Stack Web Development
+              MERN-Stack Web Development <span className="px-1">|</span>{' '}
+              MEAN-Stack Web Development
             </p>
           </div>
           <div className="block sm:hidden">
             <p className="py-2"> Full-Stack Web Development</p>
             <p> MERN-Stack Web Development</p>
+            <p> MEAN-Stack Web Development</p>
           </div>
         </div>
 
@@ -65,9 +67,13 @@ const resume = () => {
             <span className="px-2">|</span> HTML
             <span className="px-2">|</span>CSS
             <span className="px-2">|</span>Javascript
+            <span className="px-2">|</span>TypeScript
+            <span className="px-2">|</span>NodeJs
+            <span className="px-2">|</span>ExpressJs
             <span className="px-2">|</span>React
             <span className="px-2">|</span>Next JS
             <span className="px-2">|</span>MongoDB
+            <span className="px-2">|</span>MySQL
             <span className="px-2">|</span>Tailwind
             <span className="px-2">|</span> RESTAPI
           </p>

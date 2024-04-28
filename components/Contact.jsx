@@ -1,12 +1,12 @@
-import Image from "next/image";
-import Link from "next/link";
-import React, { useRef } from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
-import emailjs from "emailjs-com";
+import Image from 'next/image';
+import Link from 'next/link';
+import React, { useRef } from 'react';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import ContactImg from '../public/assets/contact.jpg';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const form = useRef();
@@ -14,10 +14,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_s7zzf3q",
-        "template_oz0ogef",
+        'service_s7zzf3q',
+        'template_oz0ogef',
         form.current,
-        "dPzf2Mw57lE3LjUGa"
+        'dPzf2Mw57lE3LjUGa'
       )
       .then(
         (result) => {
@@ -59,7 +59,7 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <a
+                  <Link
                     href="https://www.linkedin.com/in/saurabh-dhebe-611971212"
                     target="_blank"
                     rel="noreferrer"
@@ -67,8 +67,8 @@ const Contact = () => {
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://github.com/saurabhdhebe2"
                     target="_blank"
                     rel="noreferrer"
@@ -76,17 +76,15 @@ const Contact = () => {
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
                     </div>
-                  </a>
+                  </Link>
 
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                   <Link href="/resume">
-                    <a>
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -150,14 +148,9 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <a>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                <HiOutlineChevronDoubleUp
-                  className="text-[#5651e5]"
-                  size={30}
-                />
-              </div>
-            </a>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
+            </div>
           </Link>
         </div>
       </div>

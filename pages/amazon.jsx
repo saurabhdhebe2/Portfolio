@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import amazonImg from "../public/assets/projects/amazon.png";
-import { RiRadioButtonFill } from "react-icons/ri";
-import Link from "next/link";
+import Image from 'next/image';
+import React from 'react';
+import amazonImg from '../public/assets/projects/amazon.png';
+import { RiRadioButtonFill } from 'react-icons/ri';
+import Link from 'next/link';
 
 const netflix = () => {
   return (
@@ -34,20 +34,20 @@ const netflix = () => {
             address and can then sign in. The payment feature is possible by
             Stripe & Products info fetched by FakeStore API.
           </p>
-          <a
+          <Link
             href="https://github.com/fireclint/netflix-react-tailwind"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://amazon-clone-coral-alpha.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">

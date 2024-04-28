@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import shoeCenterImg from "../public/assets/projects/shoeCenter.png";
-import { RiRadioButtonFill } from "react-icons/ri";
-import Link from "next/link";
+import Image from 'next/image';
+import React from 'react';
+import shoeCenterImg from '../public/assets/projects/shoeCenter.png';
+import { RiRadioButtonFill } from 'react-icons/ri';
+import Link from 'next/link';
 
 const imdb = () => {
   return (
@@ -31,20 +31,20 @@ const imdb = () => {
             able to get to see trendy shoes available on the store.
           </p>
           <br></br>
-          <a
+          <Link
             href="https://github.com/saurabhdhebe2/shoecenter"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://saurabhdhebe2.github.io/shoecenter/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">

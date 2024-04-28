@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import productLandingPageImg from '../public/assets/projects/productLandingPageImg.png';
+import sh_portfolio from '../public/assets/projects/sh_portfolio.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,11 +13,11 @@ const imdb = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={productLandingPageImg}
+          src={sh_portfolio}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Product-Landing-Page</h2>
+          <h2 className="py-2">Film-Maker-Portfolio</h2>
           <h3>Next JS /Css /Tailwind </h3>
         </div>
       </div>
@@ -29,17 +29,17 @@ const imdb = () => {
           <p>
             This app was built using Next JS and is hosted on Vercel. Made this
           </p>
-          <p>site while sharpening my Front-End Skills.</p>
+          <p>for my brother&apos;s portfolio.</p>
           <br></br>
           <Link
-            href="https://github.com/saurabhdhebe2/product-landing-page"
+            href="https://github.com/saurabhdhebe2/sh_portfolio"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
           <Link
-            href="https://product-landing-page-ashen.vercel.app/"
+            href="https://shubhamdhebe.com/"
             target="_blank"
             rel="noreferrer"
           >

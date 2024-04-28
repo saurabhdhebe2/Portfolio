@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import imdbImg from "../public/assets/projects/imdb.png";
-import { RiRadioButtonFill } from "react-icons/ri";
-import Link from "next/link";
+import Image from 'next/image';
+import React from 'react';
+import imdbImg from '../public/assets/projects/imdb.png';
+import { RiRadioButtonFill } from 'react-icons/ri';
+import Link from 'next/link';
 
 const imdb = () => {
   return (
@@ -34,20 +34,20 @@ const imdb = () => {
             a featured selection.
           </p>
           <br></br>
-          <a
+          <Link
             href="https://github.com/saurabhdhebe2/movie-app"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://imdb-clone-1.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
